@@ -1,8 +1,21 @@
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
+# from urllib.request import urlopen
+# from bs4 import BeautifulSoup
+#
+# def ngrams(input,n):
+#     input = input.split(' ')
+#     output = []
+#     for i in range(len(input)-n+1):
+#         output.append(input[i:i+n])
+#     return output
+#
+#
+# html = urlopen("http://en.wikipedia.org/wiki/Python_(programming_language)")
+# bsObj = BeautifulSoup(html, "html.parser")
+# content=bsObj.find("div",id="mw-content-text").get_text()
+# ngrams=ngrams(content,2)
+# print(ngrams)
+# print("2-grams count is: "+str(len(ngrams)))
 
-html=urlopen("http://www.pythonscraping.com/pages/warandpeace.html")
-bsObj=BeautifulSoup(html,"html.parser")
-nameList=bsObj.findAll("span",{"class":"green"})
-for name in nameList:
-    print(name.get_text())
+a=[1,2,3,4]
+print(a[1:3])
+

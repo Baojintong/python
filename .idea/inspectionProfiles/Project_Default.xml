@@ -9,6 +9,9 @@
           <option value="time" />
           <option value="urllib2" />
           <option value="urlopen" />
+          <option value="Crawler_demo1.bs4" />
+          <option value="Crawler_demo1.urllib" />
+          <option value="re" />
         </list>
       </option>
     </inspection_tool>
